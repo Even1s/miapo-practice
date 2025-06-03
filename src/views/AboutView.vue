@@ -6,6 +6,8 @@
       <p>{{counter}}</p>
       <button @click.prevent="counter--">-</button>
     </div>
+    <input v-model="value">
+    <p>Your value: {{ value }}</p>
   </div>
 </template>
 
@@ -13,6 +15,7 @@
 import {ref} from "vue";
 
 const counter = ref<number>(0);
+const value = ref<string>('');
 </script>
 
 <style>
