@@ -33,11 +33,4 @@ const value = ref<string>('');
     gap: 16px;
   }
 }
-.counter {
-  display: flex;
-  gap: 8px;
-  button {
-    width: 32px;
-  }
-}
 </style>
