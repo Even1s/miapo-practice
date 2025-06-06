@@ -18,9 +18,9 @@
         <router-link to="/about">
           About
         </router-link>
-        <RouterLink to="/counter">
+        <router-link to="/counter">
           Counter
-        </RouterLink>
+        </router-link>
       </nav>
     </div>
   </header>
